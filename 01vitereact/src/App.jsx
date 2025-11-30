@@ -3,7 +3,7 @@ import Test from "./example"
 
 function App() {
   
-
+const username = 'Bobby'  // to use this variable we have to use {} in html
   return (
     // <Test/> 
     // <h1></h1>   //JSX must return only ONE parent element
@@ -24,7 +24,7 @@ function App() {
 
   <>  
     <Test/>
-    <h1>Hello</h1>
+    <h1>Hello {username}</h1>   
     <p>Welcome</p>
   </>
   // this is called fragment
