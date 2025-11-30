@@ -30,13 +30,27 @@ function App() {
     // console.log(counter);
 
     //calling the function
-    counter = counter + 1
-    setCounter(counter)
+    // counter = counter + 1
+    // setCounter(counter)
+
+    if(counter < 20)
+    {
+      setCounter(counter+1)
+    }else{
+      alert('Counter cannot go above 20')
+    }
   }
 
   function decreaseValue(){
-    counter = counter - 1;
-    setCounter(counter)
+    // counter = counter - 1;
+    // setCounter(counter)
+
+    if(counter > 0)
+    {
+      setCounter(counter-1)
+    }else{
+      alert('Counter cannot go below 0')
+    }
   }
 
   return (
