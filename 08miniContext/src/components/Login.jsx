@@ -32,3 +32,17 @@ function Login() {
 }
 
 export default Login
+
+/*
+<Login /> component
+
+This component will probably do something like:
+
+const { setUser } = useContext(UserContext)
+
+
+Meaning:
+✔ When user enters their name or password
+✔ setUser updates the global context
+✔ All components using the user value will update instantly
+*/

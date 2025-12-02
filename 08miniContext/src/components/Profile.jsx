@@ -12,3 +12,19 @@ function Profile() {
 }
 
 export default Profile
+
+/*
+
+<Profile /> component
+
+This component will probably do:
+
+const { user } = useContext(UserContext)
+
+
+Meaning:
+✔ It can read user information
+✔ It shows user data like name, email, etc.
+✔ No props required — it directly reads from global context
+
+*/
