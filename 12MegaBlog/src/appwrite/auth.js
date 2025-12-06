@@ -1,4 +1,4 @@
-import conf from '../conf'
+import conf from '../conf/conf'
 import { Client, Account} from "appwrite";
 
 export class AuthService {
@@ -40,6 +40,7 @@ export class AuthService {
             return await this.account.get();
         } catch (error) {
             console.log("Appwrite serive :: getCurrentUser :: error", error);
+            return null;
         }
 
         return null;
