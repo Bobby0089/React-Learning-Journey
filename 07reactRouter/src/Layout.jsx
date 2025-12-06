@@ -3,7 +3,7 @@ import Header from './components/Header/header'
 import Footer from './components/Footer/footer'
 import { Outlet } from 'react-router-dom'
 
-export class layout extends Component {
+export class Layout extends Component {
   render() {
     return (
       <>
@@ -15,4 +15,4 @@ export class layout extends Component {
   }
 }
 
-export default layout
+export default Layout
